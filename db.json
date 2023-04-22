@@ -1,0 +1,45 @@
+{
+  "employees": [
+    {
+      "name": "Romil Ghadge",
+      "profilePic": "../assets/profile-images/Ellipse -3.png",
+      "gender": "Male",
+      "department": [
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "40000",
+      "startDate": "14 Oct 2016",
+      "note": "better",
+      "id": 1
+    },
+    {
+      "name": "Priya Lad",
+      "profilePic": "../assets/profile-images/Ellipse -1.png",
+      "gender": "Female",
+      "department": [
+        "HR",
+        "Finance",
+        "Others"
+      ],
+      "salary": "20000",
+      "startDate": "16 Jul 2016",
+      "note": "best employee",
+      "id": 2
+    },
+    {
+      "name": "Vaibhav Gopale",
+      "profilePic": "../assets/profile-images/Ellipse -8.png",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "40000",
+      "startDate": "10 Aug 2017",
+      "note": "good employee",
+      "id": 3
+    }
+  ]
+}

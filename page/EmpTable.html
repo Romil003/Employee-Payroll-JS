@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../script/EmpTable.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMPLOYEE PAYROLL</title>
+    <link rel="stylesheet" href="../css/EmpTable.css">
+</head>
+
+<body>
+    <div class="main-body">
+        <header class="header">
+            <div class="logo">
+                <img class="logo-content" src="../assets/images/logo.png" />
+                <div class="main-text">
+                    <span class="emp-text">EMPLOYEE</span><br>
+                    <span class="emp-text-1">PAYROLL</span>
+                </div>
+            </div>
+        </header>
+        <div class="header-2">
+            <div class="header-2-txt">Employee Details</div>
+            <button class="search-button"><img src="../assets/icons/icons8-search.svg" /></button>
+            <button class="add-button" onclick="addNewUser()"><img style=" height: 35px; width: 35px; gap: 4px;"
+                    src="../assets/icons/add-24px.svg" />
+                <diV>Add User</diV>
+            </button>
+        </div>
+        <div class="table-1">
+            <table id="newTable" >
+                <tr class="tr-1">
+                    <th></th>
+                    <th>NAME</th>
+                    <th>GENDER</th>
+                    <th>DEPARTMENT</th>
+                    <th>SALARY</th>
+                    <th>START DATE</th>
+                    <th>ACTIONS</th>
+                </tr>
+                <tbody id="table-data">
+                    <!-- <tr class="newrow">
+                        <td class="emp-profile">
+                            <img src="../assets/profile-images/Ellipse -3.png" />
+                        </td>
+                        <td class="emp-name">Romil Ghadge</td>
+                        <td class="emp-gender">Male</td>
+                        <td class="dept">Sales</td>
+                        <td class="emp-salary">10000</td>
+                        <td class="emp-date">18 Sep 2022</td>
+                        <td style="gap: 15px;">
+                            <img onclick="deleteUser()" src="../assets/icons/delete-black-18dp.svg" id="deleteUs"/>
+                            <img onclick="editUser()" src="../assets/icons/create-black-18dp.svg" />
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <!-- <div id="realTime"></div> -->
+        </div>
+    </div>
+</body>
+
+</html>

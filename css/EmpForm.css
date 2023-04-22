@@ -1,0 +1,510 @@
+.main-body {
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.header {
+    height: 70px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.emp-text {
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 18px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #82A70C;
+    text-transform: capitalize;
+}
+
+.emp-text-1 {
+    top: 25px;
+    left: 0px;
+    width: 100px;
+    height: 18px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-content {
+    /* margin-top: 10px; */
+    margin-left: 200px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+}
+
+.main-text {
+    margin-top: 10px;
+    margin-left: 3px;
+    right: 1547px;
+    width: 127px;
+    height: 52px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 15px/18px Montserrat;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.form-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 850px;
+    height: 630px;
+    margin-top: 27px;
+    margin-bottom: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.emp-header {
+    /* Layout Properties */
+    top: 175px;
+    left: 546px;
+    width: 290px;
+    height: 37px;
+    margin-bottom: 40px;
+    margin-left: 120px;
+    margin-top: 5px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 22px/32px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.name-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* Layout Properties */
+    top: 252px;
+    left: 546px;
+    width: 650px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.name-txt {
+    /* Layout Properties */
+    top: 265px;
+    left: 546px;
+    width: 40px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.name-input {
+    /* Layout Properties */
+    top: 252px;
+    left: 688px;
+    width: 500px;
+    height: 30px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    resize: vertical;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 650px;
+    gap: 20px;
+}
+
+.profile-txt {
+    /* Layout Properties */
+    top: 348px;
+    left: 546px;
+    width: 110px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.profile-radio {
+    /* Layout Properties */
+    top: 355px;
+    left: 689px;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    /* UI Properties */
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    opacity: 1;
+}
+
+.profile-img1 {
+    /* Layout Properties */
+    top: 343px;
+    left: 722px;
+    width: 30px;
+    height: 30px;
+    /* UI Properties */
+    background: transparent url('img/Ellipse 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.gender-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    top: 445px;
+    left: 546px;
+    width: 650px;
+    gap: 82px;
+    height: 24px;
+    margin-bottom: 20px;
+    margin-left: 115px;
+    opacity: 1;
+}
+
+.gender-txt {
+    /* Layout Properties */
+    top: 445px;
+    left: 546px;
+    width: 58px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.gender-txt-1 {
+    /* Layout Properties */
+    top: 445px;
+    left: 546px;
+    width: 58px;
+    height: 24px;
+    /* margin-right: 44px; */
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.gender-radio {
+    /* Layout Properties */
+    top: 447px;
+    left: 688px;
+    width: 15px;
+    height: 15px;
+    /* UI Properties */
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    opacity: 1;
+}
+
+
+.deprt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    top: 515px;
+    left: 546px;
+    width: 650px;
+    gap: 51px;
+    height: 24px;
+    margin-bottom: 30px;
+    margin-left: 110px;
+    opacity: 1;
+}
+
+.deprt-txt {
+    top: 515px;
+    left: 825px;
+    width: 95px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.deprt-txt-1 {
+    top: 515px;
+    left: 825px;
+    width: 80px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.deprt-check {
+    /* Layout Properties */
+    top: 515px;
+    left: 688px;
+    width: 12px;
+    height: 12px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.salary-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    top: 585px;
+    left: 546px;
+    width: 650px;
+    gap: 5px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    opacity: 1;
+}
+
+.salary-txt {
+    width: 49px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.salary-txt-1 {
+    margin-right: 93px;
+}
+
+.salary-select {
+    /* Layout Properties */
+    top: 585px;
+    left: 688px;
+    width: 200px;
+    height: 30px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    text-align: left;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.date-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 110px;
+    top: 681px;
+    gap: 42px;
+    left: 546px;
+    width: 650px;
+    height: 50px;
+    opacity: 1;
+}
+
+.date-main2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.date-txt-1 {
+    width: 80px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.date-txt {
+    width: 80px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.date-select {
+    /* Layout Properties */
+    top: 681px;
+    left: 688px;
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.note {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: flex-start; */
+    width: 780px;
+    gap: 125px;
+}
+
+.note-txt {
+    top: 781px;
+    left: 546px;
+    width: 10px;
+    height: 24px;
+    margin-left: 120px;
+    /* margin-right: 125px; */
+    text-align: left;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.note-input {
+    top: 777px;
+    left: 688px;
+    width: 500px;
+    height: 90px;
+    margin-top: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.button-main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    justify-content: flex-start;
+}
+
+.button-box-1 {
+    top: 915px;
+    left: 546px;
+    width: 120px;
+    height: 40px;
+    margin-top: 34px;
+    margin-right: 280px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.button-box-2 {
+    /* Layout Properties */
+    top: 915px;
+    left: 546px;
+    width: 120px;
+    height: 40px;
+    margin-top: 34px;
+    margin-right: 15px;
+    /* UI Properties */
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
+
+.button-box-3 {
+    /* Layout Properties */
+    top: 915px;
+    left: 546px;
+    width: 120px;
+    height: 40px;
+    margin-top: 34px;
+    /* UI Properties */
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    text-align: center;
+    font: normal normal normal 15px/23px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+}
